@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./MiFoto.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Thomas Duran</h1>
+            <p class="profile-summary">
+                Soy estudiante de bachiller del grado 11, tengo 16 años, me llama la atencion los videojuegos, parchar con mis amigos y divertirme. Aspiro estudiar contaduria publica, y en un futuro crear una empresa.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:thomasfeliped@gmail.com">thomasfeliped5@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573138156947" target="_blank" rel="noopener noreferrer">+57 3105551234</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>INSTITUCION EDUCATIVA CASD JOSE PRUDENCIO PADILLA</h4>
+                    <p>Bachiller | Año de Finalización: 2025</p>
+                    <P>Descripción: En la institucion llevo estudiando desdde el grado sexto y espero cumplir con mi proceso de formacion academica en el presente año.</P>
+                </li>
+                <li>
+                    <h4>GUARDIANES DEL TURISMO | POLICIA NACIONAL DE COLOMBIA</h4>
+                    <p>Guardian del turismo| Año de Finalización: 2024</p>
+                    <p>Descripción: Identifiacion de aves, entendimiento de normas basicas en el turismo, y experiencia ganada en parque infantil.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Control de espacio publico | Guardianes del turismo</h4>
+                    <p>Julio 2024 - Julio 2024 <br>Descripción: Colaboré en la seguridad en un evento que se realizó en el parque infantil.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en equipo</li>
+                    <li>Buena comunicacion</li>
+                    <li>Respeto</li>
+                    <li>Control de mis emociones (Git)</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Paciencia</li>
+                    <li>Distracciones</li>
+                    <li>Aprendizaje Rápido</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes </h2>
+        <div class="linktree-container">
+            <img src="./MiFoto.jpeg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.instagram.com/th_duran09/?next=%2F" target="_blank" class="linktree-link"><strong>INSTAGRAM</strong></a>
+            <a href="https://www.facebook.com/thomas.duran.5055" target="_blank" class="linktree-link"><strong>FACEBOOK</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Elias Vance <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
